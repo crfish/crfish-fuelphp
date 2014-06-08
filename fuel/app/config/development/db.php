@@ -6,7 +6,7 @@
 return array(
 	'default' => array(
 		'connection'  => array(
-			'dsn'        => 'mysql:host=127.0.0.1;dbname=test',
+			'dsn'        => 'mysql:host=127.0.0.1;dbname=crfish-fuelphp',
 			'username'   => 'root',
 			'password'   => 'root',
 		),
