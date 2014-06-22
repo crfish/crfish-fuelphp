@@ -16,7 +16,7 @@ class Controller_Account extends Controller_App
 			}
 			else
 			{
-				$this->redirect('register', 'error', 'Invaild Username of Password');
+				$this->redirect('register', 'error', 'Invaild Username or Password');
 			}
 		}
 		catch (SentryAuthException $e)
